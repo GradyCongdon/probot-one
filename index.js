@@ -1,6 +1,6 @@
 module.exports = (app) => {
   // Your code here
-  app.log('wurg!! The app was loaded!');
+  app.log('prod!! The app was loaded!');
   
   
   app.on('push', async context => {
